@@ -1,0 +1,13 @@
+C:\Users\kadir.culcu\source\repos\LinqExample\LinqExample\bin\Debug\netcoreapp3.1\LinqExample.exe
+C:\Users\kadir.culcu\source\repos\LinqExample\LinqExample\bin\Debug\netcoreapp3.1\LinqExample.deps.json
+C:\Users\kadir.culcu\source\repos\LinqExample\LinqExample\bin\Debug\netcoreapp3.1\LinqExample.runtimeconfig.json
+C:\Users\kadir.culcu\source\repos\LinqExample\LinqExample\bin\Debug\netcoreapp3.1\LinqExample.runtimeconfig.dev.json
+C:\Users\kadir.culcu\source\repos\LinqExample\LinqExample\bin\Debug\netcoreapp3.1\LinqExample.dll
+C:\Users\kadir.culcu\source\repos\LinqExample\LinqExample\bin\Debug\netcoreapp3.1\LinqExample.pdb
+C:\Users\kadir.culcu\source\repos\LinqExample\LinqExample\obj\Debug\netcoreapp3.1\LinqExample.csprojAssemblyReference.cache
+C:\Users\kadir.culcu\source\repos\LinqExample\LinqExample\obj\Debug\netcoreapp3.1\LinqExample.AssemblyInfoInputs.cache
+C:\Users\kadir.culcu\source\repos\LinqExample\LinqExample\obj\Debug\netcoreapp3.1\LinqExample.AssemblyInfo.cs
+C:\Users\kadir.culcu\source\repos\LinqExample\LinqExample\obj\Debug\netcoreapp3.1\LinqExample.dll
+C:\Users\kadir.culcu\source\repos\LinqExample\LinqExample\obj\Debug\netcoreapp3.1\LinqExample.pdb
+C:\Users\kadir.culcu\source\repos\LinqExample\LinqExample\obj\Debug\netcoreapp3.1\LinqExample.csproj.CoreCompileInputs.cache
+C:\Users\kadir.culcu\source\repos\LinqExample\LinqExample\obj\Debug\netcoreapp3.1\LinqExample.genruntimeconfig.cache
