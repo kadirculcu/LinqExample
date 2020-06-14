@@ -163,7 +163,10 @@ namespace LinqExample
             };
 
 
+
             Console.WriteLine(query);
+
+           //Linqde kullanılam yöntemler için uygulamalar artacak
 
         }
     }
