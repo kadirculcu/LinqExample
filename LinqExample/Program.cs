@@ -119,6 +119,7 @@ namespace LinqExample
                 .Select(x => x.TeacherName);
 
             //Listeden liste parametresi ile Select yapmı
+            //Birden çok değeri karşılaştırmak için kullanılır.
             List<int> param = new List<int>() { 1, 2, 3, 4 };
             var ogr = student.Where(x => param.Contains(x.Sınıf)).Select(x => x);
             var ogrSecond = student.Where(x => param.Contains(x.Sınıf) && param.Contains(x.Yas)).Select(x => x);
