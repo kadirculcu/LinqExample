@@ -67,6 +67,7 @@ namespace LinqExample
             student.Add(new Student() { Ad = "Şamil", Soyad = "Çulcu", No = 234, Sınıf = 2, Yas = 2 });
             student.Add(new Student() { Ad = "Ayhan", Soyad = "Arslan", No = 235, Sınıf = 1, Yas = 26 });
             student.Add(new Student() { Ad = "Akın", Soyad = "Conba", No = 236, Sınıf = 2, Yas = 26 });
+            student.Add(new Student() { Ad = "Akın", Soyad = "Conba", No = 236, Sınıf = 2, Yas = 27 });
             student.Add(new Student() { Ad = "Şef", Soyad = "Coban", No = 42, Sınıf = 5, Yas = 27 });
             student.Add(new Student() { Ad = "Taylan", Soyad = "Kaya", No = 17, Sınıf = 5, Yas = 28 });
 
@@ -83,6 +84,14 @@ namespace LinqExample
                         {
                             StudentName = st.Ad,
                             TeacherName = tc.Tad
+                        };
+
+            var query2 = from st in student
+                        join tc in teachers on st.Sınıf equals tc.Sınıf
+                        select new
+                        {
+                            StudentName = st.Ad,
+                            TeacherName = tc.Tad,
                         };
 
 
@@ -163,6 +172,17 @@ namespace LinqExample
             };
 
 
+            string sayı = DateTime.Now.ToString();
+
+            TimeSpan date;
+            date =new TimeSpan(9,0,0);
+            if (date > new TimeSpan(8, 0, 0))
+            {
+                 sayı = DateTime.Now.ToString() + "03";
+            }
+
+            int d = Convert.ToInt32(DateTime.Now.Year.ToString() + DateTime.Now.Month.ToString());
+            int d1 = Convert.ToInt32(DateTime.Today.ToString("yyyyMM"));
 
             Console.WriteLine(query);
 
